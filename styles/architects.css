@@ -44,6 +44,12 @@ main > section {
   margin-top: 130px;
 }
 
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
 /* Header styles */
 
 /* Navbar styles */
@@ -108,12 +114,6 @@ main > section {
   max-width: 537px;
 }
 
-.feature-title {
-  font-size: 2.8rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-}
-
 #quick-list {
   font-weight: 500;
 }
@@ -126,7 +126,7 @@ main > section {
   color: #ff900e;
 }
 
-.feature-description {
+.section-description {
   font-size: 1rem;
   line-height: 1.6rem; /* 162.5% */
   margin-bottom: 2rem;
