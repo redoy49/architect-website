@@ -223,13 +223,34 @@ main > section {
   margin: 0;
 }
 
+#experience-badge {
+  padding: 45px 42px;
+  border-radius: 8px;
+  background: #ff900e;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+  position: relative;
+  top: -110px;
+  left: -80px;
+}
 
+#exerience-year {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.feature-architect img {
+  width: 100%;
+}
 
 /* Responsive media queries */
 @media (max-width: 576px) {
   .navbar,
   .nav-links,
-  .teams {
+  .teams,
+  .features {
     flex-direction: column;
   }
   .team-img-container,
@@ -247,6 +268,13 @@ main > section {
   .fact-card,
   .sponsor-companies {
     padding: 2rem;
+  }
+
+  #experience-badge {
+    position: relative;
+    top: 0;
+    left: 30px;
+    margin-top: 20px;
   }
 }
 
