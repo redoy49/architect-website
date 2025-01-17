@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>G3 Architects | Modern Design</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+    /* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #FFF6ED;
+  color: #424242;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #424242;
+  font-weight: 500;
+}
+
+/* Banner Section */
+.banner {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.banner-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.banner-description {
+  font-size: 1.1rem;
+  color: #727272;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Button */
+.btn-primary {
+  padding: 12px 30px;
+  background-color: #FF900E;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #e57d0d;
+}
+
+/* Banner Image */
+.banner-image {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.banner-image img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .banner-title {
+    font-size: 2rem;
+  }
+
+  .banner-description {
+    font-size: 1rem;
+  }
+
+  .banner-image img {
+    max-width: 90%;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <h1 class="logo">G3 Architects</h1>
+        <ul class="nav-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </nav>
+
+      <!-- Banner Section -->
+      <div class="banner">
+        <h2 class="banner-title">Brand New<br>Group of Architects</h2>
+        <p class="banner-description">
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even.
+        </p>
+        <button class="btn-primary">Explore More</button>
+      </div>
+
+      <!-- Banner Image -->
+      <div class="banner-image">
+        <img src="images/banner.png" alt="Architect Team">
+      </div>
+    </div>
+  </header>
+
+</body>
+</html>
