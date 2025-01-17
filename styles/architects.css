@@ -194,6 +194,37 @@ main > section {
   filter: grayscale(0%);
 }
 
+/* Feature section styles */
+.features {
+  gap: 100px;
+}
+#feature-section-title {
+  border-left: 5px solid #ff900e;
+  padding-left: 1.25rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.feature-card {
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px 42px 30px 30px;
+  margin-bottom: 1.25rem;
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.feature-card p {
+  margin: 0;
+}
+
+
+
 /* Responsive media queries */
 @media (max-width: 576px) {
   .navbar,
